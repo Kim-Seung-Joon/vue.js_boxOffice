@@ -2,20 +2,13 @@
 
 > A Vue.js project
 
-## Build Setup
+## 코드 내용!
 
-``` bash
-# install dependencies
-npm install
+영화진흥위원회 오픈API를 기반으로 한국의 오늘 박스오피스와, 주간 및 주말등 주어지는 여러가지 박스오피스 순위를 보여주는 코드를 작성함
+다만 문제점이 Vue.js를 빌드한 이후에 githubPage로 사이트를 따로 만들어서 보여주려고 하였으나 그 부분은 실행하지 못함(리액트 처럼 따라 할 수 있는 곳이 없었음)
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### 추가할 사항!
+메인페이지에 원래는 이미지 슬라이더를 이용해서 현재 순위를 순차적으로 보여주려고 하였으나
+이 것 이외에 네이버 오픈 api 영화검색을 할 수 있는 부분을 추가하려고 함
+오픈 api가 클라이언트에서 바로 불러 올 수 있는 부분이 있고, 서버에서 먼저 부르고 불러야 하는 부분이 있어서 이 부분에 대해서는 공부를 계속 할 예정임
